@@ -9,7 +9,7 @@ Debian User :
 
 ~ sudo apt-get update && sudo apt-get install git
  
-~ sudo git clone https://github.com/RemaxBoxTeam/R-Term
+~ sudo git clone https://github.com/RemaxBoxTeam/R-Term.git
 
 ~ cd R-Term
 
