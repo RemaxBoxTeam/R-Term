@@ -27,7 +27,7 @@ do
 		echo "\033[32mDo you want to use screenfetch [y , n] -> \033[0m"
 		read opt
 		if [[ $opt == "y" ]] ; then
-			echo "toilet -F gay -f $logo $name\nscreenfetch" > ~/.bashrc
+			echo -e "toilet -F gay -f $logo $name\nscreenfetch" > ~/.bashrc
 			echo 'PS1="\e\033[35m($\u)\[--\e\033[32m[\w]\[\e\033[34m-> \[\e\033[0m\["' >> ~/.bashrc
 		else
 			echo "toilet -F gay -f $logo $name" > ~/.bashrc
