@@ -2,6 +2,8 @@
 #!/bin/bash
 
 echo -e "\033[33mWelcome to this script $USER"
+echo -e "\033[34mCreated by RemaxBoxTeam"
+echo -e "\033[31mTelegram Channel : https://t.me/RemaxBoxTeam"
 
 printf "\033[32mPlease Choose an option \033[0m\n"
 select option in termux debian
