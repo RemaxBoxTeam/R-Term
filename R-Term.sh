@@ -28,10 +28,10 @@ do
 		read opt
 		if [[ $opt == "y" ]] ; then
 			echo -e "toilet -F gay -f $logo $name\nscreenfetch" > ~/.bashrc
-			echo 'PS1="\e\033[35m($\u)\[--\e\033[32m[\w]\[\e\033[34m-> \[\e\033[0m\["' >> ~/.bashrc
+			echo 'PS1="\e\033[35m(\u)\[--\e\033[32m[\w]\[\e\033[34m-> \[\e\033[0m\["' >> ~/.bashrc
 		else
 			echo "toilet -F gay -f $logo $name" > ~/.bashrc
-			echo 'PS1="\e\033[35m($\u)\[--\e\033[32m[\w]\[\e\033[34m-> \[\e\033[0m\["' >> ~/.bashrc
+			echo 'PS1="\e\033[35m(\u)\[--\e\033[32m[\w]\[\e\033[34m-> \[\e\033[0m\["' >> ~/.bashrc
 			echo "Please Open the Termux again :) "
 			sleep 2
 			logout 
@@ -66,7 +66,7 @@ do
 				exit 1
 			else
 				echo "toilet -F gay -f $logo $name" > ~/.bashrc
-				echo 'PS1="\e\033[35m$(\u)\[--\e\033[32m[\w]\[\e\033[34m-> \[\e\033[0m\["' >> ~/.bashrc
+				echo 'PS1="\e\033[35m(\u)\[--\e\033[32m[\w]\[\e\033[34m-> \[\e\033[0m\["' >> ~/.bashrc
 				echo "The operation has been successfully"
 				echo "Open the terminal again"
 				sleep 2
